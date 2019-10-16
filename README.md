@@ -16,7 +16,9 @@
 - `DATABASE_PORT` - порт базы данных;
 - `DATABASE_NAME` - имя базы данных;
 - `DATABASE_USER` - имя пользователя для доступа к базе данных;
-- `DATABASE_PASSWORD` - пароль для доступа к базе данных.
+- `DATABASE_PASSWORD` - пароль для доступа к базе данных;
+- `DEBUG` - включение дебаг-режима сервера Django. По умолчанию - `False`. [Узнать больше о DEBUG.](https://docs.djangoproject.com/en/2.2/ref/settings/#debug)
+- `SECRET_KEY` - секретный ключ сервера Django. [Узнать больше о SECRET_KEY.](https://docs.djangoproject.com/en/2.2/ref/settings/#secret-key)
 
 ### Как установить
 Python3 должен быть уже установлен. 
